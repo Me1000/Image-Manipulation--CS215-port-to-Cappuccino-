@@ -27,22 +27,10 @@
             ImageController imageController;
 }
 
-- (void)applicationDidFinishLaunching:(CPNotification)aNotification
-{
-    // This is called when the application is done loading.
-}
-
-- (void)awakeFromCib
-{
-    // This is called when the cib is done loading.
-    // You can implement this method on any object instantiated from a Cib.
-    // It's a useful hook for setting up current UI values, and other things. 
-}
-
 - (@action)loadImage:(id)sender
 {
     imageController = [[ImageController alloc] init];
-    //[imageController newImage:"http://timetableapp.com/TestingEnviro/TreasuresWebsite/resources/map_no_pins.png"];
+
     [imageController newImage:"Resources/sample2.jpg"];
     //[imageController newImage:"Resources/red.png"];
     [imageController setDelegate:self];
