@@ -2,8 +2,8 @@
  * AppController.j
  * CS215Final
  *
- * Created by You on November 24, 2010.
- * Copyright 2010, Your Company All rights reserved.
+ * Created by Randall Luecke on November 24, 2010.
+ * Copyright 2010, RCLConcepts, LLC All rights reserved.
  */
 
 @import <Foundation/CPObject.j>
