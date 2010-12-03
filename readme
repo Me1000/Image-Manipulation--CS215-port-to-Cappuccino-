@@ -1,1 +1,3 @@
 This is just a proof of concept application to manipulate images using HTML5 (canvas and WebWorkers), Cappuccino, and Atlas. The algorithm for resizing could be better, and the application was never actually finished.
+
+Demo at: http://timetableapp.com/TestingEnviro/CS215ImageU/
